@@ -1,8 +1,9 @@
+###Remember, any time you want to reset your canvas, you can type out t.reset(). Use t.clear() if you want to leave your turtle where it is###
 import turtle
 t = turtle.Pen()
 
 ###The first thing we can do is use the .bgcolor() function on turtle to change the color of the canvas background! Try this now on the line below.
-#Hint: In this case, we can't use out t variable because .bgcolor() doesn't work on the turtle Pen. Here we have to write out turtle.bgcolor("color")
+#Hint: In this case, we can't use our t variable because .bgcolor() doesn't work on the turtle Pen. Here we have to write out turtle.bgcolor("color")
 #Here is a link to look up color names that work in Python: https://en.wikipedia.org/wiki/Web_colors
 
 
@@ -38,6 +39,17 @@ t = turtle.Pen()
 
 
 
+#YOU CAN EVEN CHANGE YOUR TURTLE'S SHAPE! Use the .shape('type shape in here') function to set the turtle's shape. Your options are: Square, Arrow, Circle, Turtle,
+#Triangle, Classic
+
+
+
+
+#Guess what else? You could have made most of these alterations to your turtle in one line of code
+#e.g. t.pen(pencolor="yellow", fillcolor="blue", pensize=10, speed=1) ->Try it below!!
+
+
+
 
 #Filling a custom image: Use the .begin_fill() and end_fill() functions around action commands to fill a shape once it is completed. There is an example below:
 '''
@@ -54,16 +66,11 @@ t.end_fill()
 
 
 
-#YOU CAN EVEN CHANGE YOUR TURTLE'S SHAPE! Use the .shape('type shape in here') function to set the turtle's shape. Your options are: Square, Arrow, Circle, Turtle,
-#Triangle, Classic
 
 
 
 
-#Guess what else? You could have made most of these alterations to your turtle in one line of code
-#e.g. t.pen(pencolor="yellow", fillcolor="blue", pensize=10, speed=1) ->Try it below!!
-
-
+#-----------------------------------------------------------------------------------------#
 
 #Bonus Questions:
 
@@ -105,9 +112,9 @@ for x in range(100):
   t.pencolor(colors[x%4]) t.forward(x)
   t.left(91)
   
-#Instead of drawing a coninuous line, could you add steps in here to make it a dashed line? What if you want to write your name over and over again in a spiral-like
-#pattern? What if you wanted your name to increase in size each time you wrote it? Hint: Look up the write() function for turtle and see what parameters it takes.
-#See if you can incorporate it into your program!
+#Instead of drawing a coninuous line, could you add steps in here to make it a dashed line? What if you want to write your name over and over again in a 
+#spiral-like pattern? What if you wanted your name to increase in size each time you wrote it? Hint: Look up the .write() function for turtle and see what
+#parameters it takes. See if you can incorporate it into your program!
 
 
 
