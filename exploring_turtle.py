@@ -106,12 +106,13 @@ tax_rate = 0.08
 
 
 #2)Take a potential answer to the last assignment's spiral bonus question:
+'''
 t.reset()
 colors = ["red", "yellow", "blue", "green"] 
 for x in range(100):
   t.pencolor(colors[x%4]) t.forward(x)
   t.left(91)
-  
+'''
 #Instead of drawing a coninuous line, could you add steps in here to make it a dashed line? What if you want to write your name over and over again in a 
 #spiral-like pattern? What if you wanted your name to increase in size each time you wrote it? Hint: Look up the .write() function for turtle and see what
 #parameters it takes. See if you can incorporate it into your program!
