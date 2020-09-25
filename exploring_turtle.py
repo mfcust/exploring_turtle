@@ -110,7 +110,8 @@ tax_rate = 0.08
 t.reset()
 colors = ["red", "yellow", "blue", "green"] 
 for x in range(100):
-  t.pencolor(colors[x%4]) t.forward(x)
+  t.pencolor(colors[x%4]) 
+  t.forward(x)
   t.left(91)
 '''
 #Instead of drawing a coninuous line, could you add steps in here to make it a dashed line? What if you want to write your name over and over again in a 
