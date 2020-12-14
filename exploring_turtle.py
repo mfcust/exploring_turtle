@@ -2,7 +2,7 @@
 import turtle
 t = turtle.Pen()
 
-###The first thing we can do is use the .bgcolor() function on turtle to change the color of the canvas background! Try this now on the line below.
+#1) The first thing we can do is use the .bgcolor() function on turtle to change the color of the canvas background! Try this now on the line below.
 #Hint: In this case, we can't use our t variable because .bgcolor() doesn't work on the turtle Pen. Here we have to write out turtle.bgcolor("color")
 #Here is a link to look up color names that work in Python: https://en.wikipedia.org/wiki/Web_colors
 
@@ -10,48 +10,48 @@ t = turtle.Pen()
 
 
 
-#What if you want to draw a dot with the circle filled in? There is a function for that called .dot("radius") that takes one parameter, which is radius in pixels.
+#2) What if you want to draw a dot with the circle filled in? There is a function for that called .dot("radius") that takes one parameter, which is radius in pixels.
 #Draw a dot below with a radius of your choosing
 
 
 
 
 
-#Use the dot and motion functions (forward, backward, left, right, etc.) to draw a shape with dots in each corner! Kind of like connect the dots.
+#3) Use the dot and motion functions (forward, backward, left, right, etc.) to draw a shape with dots in each corner! Kind of like connect the dots.
 
 
 
 
 
-#Is there a way to format the dimensions of your turtle? Yes there is!! Use the function .shapesize(length, width, outline width) to resize your turtle!
+#4) Is there a way to format the dimensions of your turtle? Yes there is!! Use the function .shapesize(length, width, outline width) to resize your turtle!
 
 
 
 
 
-#What about pen width?? Use the function .pensize(thickness in pixels) to adjust the pen thickness
+#5) What about pen width?? Use the function .pensize(thickness in pixels) to adjust the pen thickness
 
 
 
 
-#Can I style my turtle further? Try using the .fillcolor("color") function to change the inner color of your turtle
+#6) Can I style my turtle further? Try using the .fillcolor("color") function to change the inner color of your turtle
 
 
 
 
-#YOU CAN EVEN CHANGE YOUR TURTLE'S SHAPE! Use the .shape('type shape in here') function to set the turtle's shape. Your options are: Square, Arrow, Circle, Turtle,
+#7) YOU CAN EVEN CHANGE YOUR TURTLE'S SHAPE! Use the .shape('type shape in here') function to set the turtle's shape. Your options are: Square, Arrow, Circle, Turtle,
 #Triangle, Classic
 
 
 
 
-#Guess what else? You could have made most of these alterations to your turtle in one line of code
+#8) Guess what else? You could have made most of these alterations to your turtle in one line of code
 #e.g. t.pen(pencolor="yellow", fillcolor="blue", pensize=10, speed=1) ->Try it below!!
 
 
 
 
-#Filling a custom image: Use the .begin_fill() and end_fill() functions around action commands to fill a shape once it is completed. There is an example below:
+#9) Filling a custom image: Use the .begin_fill() and end_fill() functions around action commands to fill a shape once it is completed. There is an example below:
 '''
 t.begin_fill()
 t.fd(100)
