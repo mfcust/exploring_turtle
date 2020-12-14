@@ -1,4 +1,4 @@
-# Exploring Turtle
+# Turtle Continued
 
 Review: Turtle is a Python library. It contains lots of code that has been already written by programmers, and ready for you to use! Again, the first step to use the code inside of the turtle library is to import it like so:
 ```
